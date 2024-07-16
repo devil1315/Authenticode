@@ -638,7 +638,7 @@ header {
 }
 
 .offices-heading .underline {
-    width: 150px;
+    width: 100px;
     height: 4px;
     background-color: var(--primary-color);
     margin: 10px auto 15px auto;
