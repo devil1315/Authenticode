@@ -1513,8 +1513,12 @@ footer {
 
 .drop-down li {
     min-width: 200px;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
     position: relative;
+}
+
+.drop-down ul li a.active {
+    color: var(--primary-color);
 }
 
 .drop-down ul a {
@@ -1524,6 +1528,7 @@ footer {
     color: #2c4964;
     font-weight: 600;
     white-space: nowrap;
+    display: block;
 }
 
 .drop-down ul a:hover,
@@ -1951,6 +1956,7 @@ textarea#message {
     background-color: #fafafa;
     border: 2px solid #f0f0f0;
     font-weight: 500;
+    outline: 0;
 }
 
 .form-btn {
@@ -2024,3 +2030,53 @@ textarea#message {
 }
 
 /* contact us page */
+
+/* marketing  */
+.marketing {
+    background-color: var(--primary-color);
+}
+
+.marketing-card {
+    width: 100%;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    padding: 15px;
+    background-color: var(--white-color);
+}
+
+.marketing-card img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+
+.marketing-card h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--black-color);
+}
+
+.marketing-card p:first-child {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.68px;
+    color: var(--fade-black);
+    margin-bottom: 0;
+}
+
+.marketing-card p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: var(--fade-black);
+    margin-bottom: 0;
+}
+
+/* marketing  */
