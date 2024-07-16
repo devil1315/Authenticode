@@ -22,6 +22,30 @@ $("#owl-carousel").owlCarousel({
     },
   },
 });
+$("#serv-owl-carousel").owlCarousel({
+  loop: false,
+  margin: 20,
+  responsiveClass: true,
+  navText: [
+    `<img src="../assets/images/icon/left.png" alt="" class="img-fluid me-3">`,
+    `<img src="../assets/images/icon/right.png" alt="" class="img-fluid">`,
+  ],
+  responsive: {
+    0: {
+      items: 1,
+      nav: true,
+    },
+    600: {
+      items: 1,
+      nav: false,
+    },
+    1000: {
+      items: 3,
+      nav: true,
+      loop: false,
+    },
+  },
+});
 
 jQuery(document).ready(function () {
   jQuery("#project-logo").owlCarousel({
@@ -46,10 +70,10 @@ jQuery(document).ready(function () {
     },
   });
 
-  jQuery(".owl-carousel").trigger("play.owl.autoplay", [2000]);
+  jQuery(".client-logo").trigger("play.owl.autoplay", [2000]);
 
   function setSpeed() {
-    jQuery(".owl-carousel").trigger("play.owl.autoplay", [2000]);
+    jQuery(".client-logo").trigger("play.owl.autoplay", [2000]);
   }
 
   setTimeout(setSpeed, 1000);
@@ -104,3 +128,28 @@ jQuery(document).ready(function () {
 //     },
 //   },
 // });
+$("#blog-owl-carousel").owlCarousel({
+  loop: false,
+  margin: 20,
+  autoplay: false,
+  responsiveClass: true,
+  navText: [
+    `<img src="../assets/images/icon/left.png" alt="" class="img-fluid me-3">`,
+    `<img src="../assets/images/icon/right.png" alt="" class="img-fluid">`,
+  ],
+  responsive: {
+    0: {
+      items: 1,
+      nav: true,
+    },
+    600: {
+      items: 1,
+      nav: false,
+    },
+    1000: {
+      items: 3,
+      nav: true,
+      loop: false,
+    },
+  },
+});
