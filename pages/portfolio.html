@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career | Authenticode</title>
+    <title>Home | Authenticode</title>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
@@ -13,13 +13,13 @@
 </head>
 
 <body>
-    <div class="preloader" id="preloader">
+    <!-- <div class="preloader" id="preloader">
         <div id="loader">
             <div class="loader"></div>
         </div>
-    </div>
+    </div> -->
 
-    <header id="servicepage">
+    <header id="aboutpage">
         <nav class="navbar navbar-expand-lg py-nav  px-120 ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -54,30 +54,30 @@
                                     <a class="nav-link " href="about.html">About</a>
                                 </li>
                                 <li class="nav-item">
-                                       <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                                    <a class="nav-link active" href="portfolio.html">Portfolio</a>
                                 </li>
-                                <li class="nav-item drop-down position-relative">
-                                    <a class="nav-link d-flex active">
-                                        Services <span class="material-symbols-outlined">
-                                            keyboard_arrow_down
-                                        </span>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Services
                                     </a>
-                                    <ul>
-                                        <li><a href="ui-ux.html" class="active">Graphic &amp; UI/UX Design</a></li>
-                                        <li><a href="web-development.html">Web Development</a></li>
-                                        <li><a href="mobile-development.html">Mobile Development</a></li>
-                                        <li><a href="digital-marketing.html">Digital Marketing</a></li>
-                                        <li><a href="ai-ar.html">AI/AR</a></li>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="career.html">Career</a>
+                                    <a class="nav-link" href="#">Career</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="blog.html">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="#">Contact</a>
                                 </li>
                             </ul>
                             <div class="d-flex " role="search">
@@ -90,17 +90,19 @@
         </nav>
     </header>
 
-    <section class="advertisment  px-120" id="service">
+    <section class="advertisment py-5 px-120" id="about-us">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4">
                     <div class="advertisement-details">
-                        <h5>Graphic, UI & UX Design</h5>
-                        <h6 class="mb-35">
-                            Authenticode is a leading UI/UX Design Company specializing in creating beautiful hands-on
-                            User Interface and experience designs that meet our client’s vision and goals.
+                        <h5>Our Portfolio</h5>
+                        <h6>We are part of this change and have the experience of building productive applications for
+                            iPhone and Android for a large number of customers worldwide. By leveraging business
+                            capabilities in making cost-effective and time-consuming applications, we have helped our
+                            customers become winners of market competitions. Take a look at our global app portfolio and
+                            let’s discuss if you have similar or different needs.
                         </h6>
-                        <button class="btn btn-gradient d-flex gap-1" type="button">Send us Query <span
+                        <button class="btn btn-gradient d-flex gap-1 mt-5   " type="button">Send us Query <span
                                 class="material-symbols-outlined text-20">
                                 north_east
                             </span>
@@ -108,168 +110,159 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="about-header-img text-end">
-                        <img src="../assets/images/ui-ux.png" alt="" class="img-fluid">
+                    <div class="about-header-img text-center">
+                        <img src="../assets/images/hero-image.png" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="service-center py-50 px-120">
+    <section class="blog-content py-120 px-120">
         <div class="container-fluid">
+            <div class="project-header text-center mb-50">
+                <h4>Our Portfolio</h4>
+                <div class="underline"></div>
+                <p>Check our app development portfolio. We have designed and developed over 500 mobile apps for <br>
+                    enterprises, medium-sized businesses, and startups, helping them to raise millions and gain millions
+                    of users.
+                </p>
+            </div>
+            <div class="row align-items-center flex-column">
+                <div class="col-lg-12">
+                    <div class="button-group filters-button-group fs-5">
+                        <button class="button is-checked" data-filter="*">All</button>
+                        <button class="button" data-filter=".web">Web Development</button>
+                        <button class="button" data-filter=".app">App Development</button>
+                        <button class="button" data-filter=".graphic">Graphic Design</button>
+                    </div>
 
-            <div class="row align-items-center">
-                <div class="col-lg-4">
-                    <div class="project-header text-center ">
-                        <h4>Technologies We Use</h4>
-                        <div class="underline"></div>
-                        <p>Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit
-                            interdum, ac aliquet odio mattis.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="tech-logo">
-                        <img src="../assets/images/technology/dimond.png" alt="" class="img-fluid">
-                        <img src="../assets/images/technology/pr.png" alt="" class="img-fluid">
-                        <img src="../assets/images/technology/xd.png" alt="" class="img-fluid">
-                        <img src="../assets/images/technology/ld.png" alt="" class="img-fluid">
-                        <img src="../assets/images/technology/Ai.png" alt="" class="img-fluid">
-                        <img src="../assets/images/technology/figma.png" alt="" class="img-fluid">
-                        <img src="../assets/images/technology/Ae.png" alt="" class="img-fluid">
-                        <img src="../assets/images/technology/ps.png" alt="" class="img-fluid">
-                        <img src="../assets/images/technology/In.png" alt="" class="img-fluid">
-                    </div>
+                    <section id="grid-container" class="transitions-enabled fluid masonry js-masonry grid">
+                        <article class="project-details graphic app">
+                            <div class="project-image">
+                                <img src="../assets/images/projects/project-1.png" alt="" class="img-responsive">
+                                <div class="overlay-portfolio"></div>
+                            </div>
+                            <div class="bage-title">
+                                <h2 class="badge-name">Title</h2>
+                            </div>
+                            <div class="bage-tags">
+                                <h5 class="badge-project">Graphic Design</h5>
+                                <h5 class="badge-project">App Development</h5>
+                            </div>
+                        </article>
+
+                        <article class="project-details graphic app">
+                            <div class="project-image ">
+                                <img src="../assets/images/projects/project-2.png" alt="" class="img-responsive">
+                                <div class="overlay-portfolio"></div>
+                            </div>
+                            <div class="bage-title">
+                                <h2 class="badge-name">Title</h2>
+                            </div>
+                            <div class="bage-tags">
+                                <h5 class="badge-project">Graphic Design</h5>
+                                <h5 class="badge-project">App Development</h5>
+                            </div>
+                        </article>
+
+                        <article class="project-details web">
+                            <div class="project-image ">
+                                <img src="../assets/images/projects/project-3.png" alt="" class="img-responsive">
+                                <div class="overlay-portfolio"></div>
+                            </div>
+                            <div class="bage-title">
+                                <h2 class="badge-name">Title</h2>
+                            </div>
+                            <div class="bage-tags">
+                                <h5 class="badge-project">Web Development</h5>
+                            </div>
+                        </article>
+
+                        <article class="project-details graphic app">
+                            <div class="project-image ">
+                                <img src="../assets/images/projects/project-4.png" alt="" class="img-responsive">
+                                <div class="overlay-portfolio"></div>
+                            </div>
+                            <div class="bage-title">
+                                <h2 class="badge-name">Title</h2>
+                            </div>
+                            <div class="bage-tags">
+                                <h5 class="badge-project">Graphic Design</h5>
+                                <h5 class="badge-project">App Development</h5>
+                            </div>
+                        </article>
+
+                        <article class="project-details app">
+                            <div class="project-image ">
+                                <img src="../assets/images/projects/project-5.png" alt="" class="img-responsive">
+                                <div class="overlay-portfolio"></div>
+                            </div>
+                            <div class="bage-title">
+                                <h2 class="badge-name">Title</h2>
+                            </div>
+                            <div class="bage-tags">
+                                <h5 class="badge-project">App Development</h5>
+                            </div>
+                        </article>
+
+                        <article class="project-details graphic">
+                            <div class="project-image ">
+                                <img src="../assets/images/projects/project-6.png" alt="" class="img-responsive">
+                                <div class="overlay-portfolio"></div>
+                            </div>
+                            <div class="bage-title">
+                                <h2 class="badge-name">Title</h2>
+                            </div>
+                            <div class="bage-tags">
+                                <h5 class="badge-project">Graphic Design</h5>
+                            </div>
+                        </article>
+
+                        <article class="project-details web graphic">
+                            <div class="project-image ">
+                                <img src="../assets/images/projects/project-7.png" alt="" class="img-responsive">
+                                <div class="overlay-portfolio"></div>
+                            </div>
+                            <div class="bage-title">
+                                <h2 class="badge-name">Title</h2>
+                            </div>
+                            <div class="bage-tags">
+                                <h5 class="badge-project">Graphic Design</h5>
+                                <h5 class="badge-project">Web Development</h5>
+                            </div>
+                        </article>
+
+                        <article class="project-details graphic">
+                            <div class="project-image ">
+                                <img src="../assets/images/projects/project-8.png" alt="" class="img-responsive">
+                                <div class="overlay-portfolio"></div>
+                            </div>
+                            <div class="bage-title">
+                                <h2 class="badge-name">Title</h2>
+                            </div>
+                            <div class="bage-tags">
+                                <h5 class="badge-project">Graphic Design</h5>
+                            </div>
+                        </article>
+
+                        <article class="project-details web">
+                            <div class="project-image ">
+                                <img src="../assets/images/projects/project-9.png" alt="" class="img-responsive">
+                                <div class="overlay-portfolio"></div>
+                            </div>
+                            <div class="bage-title">
+                                <h2 class="badge-name">Title</h2>
+                            </div>
+                            <div class="bage-tags">
+                                <h5 class="badge-project">Web Development</h5>
+                            </div>
+                        </article>
+                    </section>
                 </div>
             </div>
         </div>
     </section>
-
-
-    <section class="service-center mt-4 ">
-        <div class="project-header text-center mb-50">
-            <h4>Process of Design</h4>
-            <div class="underline"></div>
-        </div>
-        <div class="step-bg">
-            <div class="container-fluid">
-                <div class="row align-items-center px-120 py-50">
-                    <div class="col-lg-6">
-                        <img src="../assets/images/step/step_1.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="step-tutorials">
-                            <img src="../assets/images/step/step-1.png" alt="" class="img-fluid mb-25">
-                            <h1 class="mb-25">Discovery Session</h1>
-                            <p class="mb-0">Authenticode is a UI/UX design agency conducting a complete acquisition
-                                session with the
-                                customer to inquire about his or her ideas and opinion about the App.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="service-center  ">
-        <div class="">
-            <div class="container-fluid">
-                <div class="row align-items-center px-120 py-50">
-                    <div class="col-lg-6">
-                        <div class="step-tutorials">
-                            <img src="../assets/images/step/step-2.png" alt="" class="img-fluid mb-25">
-                            <h1 class="mb-25">UX Wireframing</h1>
-                            <p class="mb-0">Create a product that is clear and precise, that is easy to understand for
-                                users.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 text-end">
-                        <img src="../assets/images/step/step_2.png" alt="" class="img-fluid">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="service-center  ">
-        <div class="step-bg">
-            <div class="container-fluid">
-                <div class="row align-items-center px-120 py-50">
-                    <div class="col-lg-6">
-                        <img src="../assets/images/step/step_3.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="step-tutorials">
-                            <img src="../assets/images/step/step-3.png" alt="" class="img-fluid mb-25">
-                            <h1 class="mb-25">Defining Features</h1>
-                            <p class="mb-0">Authenticode is a UI/UX design company that creates a solid knowledge base
-                                on defined structures that are a must for success.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="service-center ">
-        <div class="">
-            <div class="container-fluid">
-                <div class="row align-items-center px-120 py-50">
-                    <div class="col-lg-6">
-                        <div class="step-tutorials">
-                            <img src="../assets/images/step/step-4.png" alt="" class="img-fluid mb-25">
-                            <h1 class="mb-25">Powerful Branding</h1>
-                            <p class="mb-0">Maximize the prospects for the success of your digital products with
-                                thoughtful and compelling branding.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 text-end">
-                        <img src="../assets/images/step/step_4.png" alt="" class="img-fluid">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="service-center ">
-        <div class="step-bg">
-            <div class="container-fluid">
-                <div class="row align-items-center px-120 py-50">
-                    <div class="col-lg-6">
-                        <img src="../assets/images/step/step_5.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="step-tutorials">
-                            <img src="../assets/images/step/step-5.png" alt="" class="img-fluid mb-25">
-                            <h1 class="mb-25">UI Design</h1>
-                            <p class="mb-0">Give your digital brand a positive face by combining your brand identity
-                                with any other respective.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="service-center">
-        <div class="">
-            <div class="container-fluid">
-                <div class="row align-items-center px-120 py-50">
-                    <div class="col-lg-6">
-                        <div class="step-tutorials">
-                            <img src="../assets/images/step/step-6.png" alt="" class="img-fluid mb-25">
-                            <h1 class="mb-25">Usability Engineering</h1>
-                            <p class="mb-0">Helping customers identify relevant indicators to assess customer
-                                performance for future engagement.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 text-end">
-                        <img src="../assets/images/step/step_6.png" alt="" class="img-fluid">
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
 
     <section class="together py-50">
         <div class="container-fluid">
@@ -444,8 +437,50 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
     <script src="../assets/js/bootstrap.bundle.js"></script>
     <script src="../assets/js/script.js"></script>
+
+    <script>
+        $(function () {
+            var $grid = $(".grid").isotope({
+                itemSelector: "article",
+            });
+
+            // filter buttons
+            $(".filters-button-group").on("click", "button", function () {
+                var filterValue = $(this).attr("data-filter");
+                $grid.isotope({ filter: filterValue });
+            });
+
+            $(".button-group").each(function (i, buttonGroup) {
+                var $buttonGroup = $(buttonGroup);
+                $buttonGroup.on("click", "button", function () {
+                    $buttonGroup.find(".is-checked").removeClass("is-checked");
+                    $(this).addClass("is-checked");
+                });
+            });
+        });
+
+        // debounce so filtering doesn't happen every millisecond
+        function debounce(fn, threshold) {
+            var timeout;
+            return function debounced() {
+                if (timeout) {
+                    clearTimeout(timeout);
+                }
+                function delayed() {
+                    fn();
+                    timeout = null;
+                }
+                timeout = setTimeout(delayed, threshold || 100);
+            };
+        }
+
+        $(window).bind("load", function () {
+            $(".button[data-filter='*']").click();
+        });
+    </script>
 
 </body>
 
