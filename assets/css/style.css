@@ -12,6 +12,10 @@
     -o-transition: 0.5s ease-in-out; */
 }
 
+body {
+    font-size: 65.5%;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -1071,6 +1075,11 @@ footer {
     color: var(--fade-white);
     margin-bottom: 0;
     padding-right: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 .divider {
@@ -1298,7 +1307,7 @@ footer {
     width: 100%;
 }
 
-@media (max-width:768px) {
+@media (max-width:992px) {
     #about-us {
         height: 100%;
         /* background-position: top; */
@@ -1617,10 +1626,14 @@ footer {
     width: 100%;
 }
 
-@media (max-width:768px) {
+@media (max-width:992px) {
     #service {
         height: 100%;
         /* background-position: top; */
+    }
+
+    #service .about-header-img {
+        text-align: center !important;
     }
 }
 

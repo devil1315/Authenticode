@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | AuthentiCode</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/owl.css">
+</head>
+
+<body>
+    <div class="preloader" id="preloader">
+        <div id="loader">
+            <div class="loader"></div>
+        </div>
+    </div>
+
+    <header id="aboutpage">
+        <nav class="navbar navbar-expand-lg py-nav  px-120 ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <div class="company-logo">
+                        <img src="../assets/images/logo/logo.svg" alt="">
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                                <div class="company-logo">
+                                    <img src="../assets/images/logo/logo.svg" alt="">
+                                </div>
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body align-items-center">
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li class="nav-item drop-down position-relative">
+                                    <a class="nav-link d-flex">
+                                        Services <span class="material-symbols-outlined">
+                                            keyboard_arrow_down
+                                        </span>
+                                    </a>
+                                    <ul>
+                                        <li><a href="ui-ux.html">Graphic &amp; UI/UX Design</a></li>
+                                        <li><a href="web-development.html">Web Development</a></li>
+                                        <li><a href="mobile-development.html">Mobile Development</a></li>
+                                        <li><a href="digital-marketing.html">Digital Marketing</a></li>
+                                        <li><a href="ai-ar.html">AI/AR</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="career.html">Career</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex " role="search">
+                                <button class="btn btn-gradient" type="button">Get a quote</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="advertisment py-md-5 px-120" id="about-us">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-5 mb-4">
+                    <div class="advertisement-details">
+                        <h5 class="mb-3">Our Portfolio</h5>
+                        <h6 class="mb-4">We are part of this change and have the experience of building productive
+                            applications for iPhone and Android for a large number of customers worldwide. By leveraging
+                            business capabilities in making cost-effective and time-consuming applications, we have
+                            helped our customers become winners of market competitions. Take a look at our global app
+                            portfolio and let's discuss if you have similar or different needs.
+                        </h6>
+                        <button class="btn btn-gradient d-flex gap-2 align-items-center" type="button">Send us Query
+                            <span class="material-symbols-outlined text-20">
+                                north_east
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-7 mt-3 mt-md-0">
+                    <div class="about-header-img text-center">
+                        <img src="../assets/images/hero-image.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-content py-120 px-120">
+        <div class="container-fluid">
+            <div class="project-header text-center mb-md-50 mb-sm-5 mb-3  d-flex align-items-center flex-column  ">
+                <h4>Our Portfolio</h4>
+                <div class="underline"></div>
+                <p>Check our app development portfolio. We have designed and developed over 500 mobile apps for
+                    enterprises, medium-sized businesses, and startups, helping them to raise millions and gain millions
+                    of users.
+                </p>
+            </div>
+            <div class="row align-items-center flex-column">
+                <div class="col-lg-12">
+                    <div class="button-group filters-button-group fs-5">
+                        <button class="button is-checked" data-filter="*">All</button>
+                        <button class="button" data-filter=".web">Web Development</button>
+                        <button class="button" data-filter=".app">App Development</button>
+                        <button class="button" data-filter=".graphic">Graphic Design</button>
+                    </div>
+
+                    <section id="grid-container" class="transitions-enabled fluid masonry js-masonry grid">
+                        <article class="project-details graphic app">
+                            <div class="project-image">
+                                <img src="../assets/images/projects/project-1.png" alt="" class="img-responsive">
+                                <div class="overlay-portfolio"></div>
+                            </div>
+                            <div class="bage-title">
+                                <h2 class="badge-name">Title</h2>
+                            </div>
+                            <div class="bage-tags">
+                                <h5 class="badge-project">Graphic Design</h5>
+                                <h5 class="badge-project">App Development</h5>
+                            </div>
+                        </article>
+
+                        <article class="project-details graphic app">
+                            <div class="project-image ">
+                                <img src="../assets/images/projects/project-2.png" alt="" class="img-responsive">
+                                <div class="overlay-portfolio"></div>
+                            </div>
+                            <div class="bage-title">
+                                <h2 class="badge-name">Title</h2>
+                            </div>
+                            <div class="bage-tags">
+                                <h5 class="badge-project">Graphic Design</h5>
+                                <h5 class="badge-project">App Development</h5>
+                            </div>
+                        </article>
+
+                        <article class="project-details web">
+                            <div class="project-image ">
+                                <img src="../assets/images/projects/project-3.png" alt="" class="img-responsive">
+                                <div class="overlay-portfolio"></div>
+                            </div>
+                            <div class="bage-title">
+                                <h2 class="badge-name">Title</h2>
+                            </div>
+                            <div class="bage-tags">
+                                <h5 class="badge-project">Web Development</h5>
+                            </div>
+                        </article>
+
+                        <article class="project-details graphic app">
+                            <div class="project-image ">
+                                <img src="../assets/images/projects/project-4.png" alt="" class="img-responsive">
+                                <div class="overlay-portfolio"></div>
+                            </div>
+                            <div class="bage-title">
+                                <h2 class="badge-name">Title</h2>
+                            </div>
+                            <div class="bage-tags">
+                                <h5 class="badge-project">Graphic Design</h5>
+                                <h5 class="badge-project">App Development</h5>
+                            </div>
+                        </article>
+
+                        <article class="project-details app">
+                            <div class="project-image ">
+                                <img src="../assets/images/projects/project-5.png" alt="" class="img-responsive">
+                                <div class="overlay-portfolio"></div>
+                            </div>
+                            <div class="bage-title">
+                                <h2 class="badge-name">Title</h2>
+                            </div>
+                            <div class="bage-tags">
+                                <h5 class="badge-project">App Development</h5>
+                            </div>
+                        </article>
+
+                        <article class="project-details graphic">
+                            <div class="project-image ">
+                                <img src="../assets/images/projects/project-6.png" alt="" class="img-responsive">
+                                <div class="overlay-portfolio"></div>
+                            </div>
+                            <div class="bage-title">
+                                <h2 class="badge-name">Title</h2>
+                            </div>
+                            <div class="bage-tags">
+                                <h5 class="badge-project">Graphic Design</h5>
+                            </div>
+                        </article>
+
+                        <article class="project-details web graphic">
+                            <div class="project-image ">
+                                <img src="../assets/images/projects/project-7.png" alt="" class="img-responsive">
+                                <div class="overlay-portfolio"></div>
+                            </div>
+                            <div class="bage-title">
+                                <h2 class="badge-name">Title</h2>
+                            </div>
+                            <div class="bage-tags">
+                                <h5 class="badge-project">Graphic Design</h5>
+                                <h5 class="badge-project">Web Development</h5>
+                            </div>
+                        </article>
+
+                        <article class="project-details graphic">
+                            <div class="project-image ">
+                                <img src="../assets/images/projects/project-8.png" alt="" class="img-responsive">
+                                <div class="overlay-portfolio"></div>
+                            </div>
+                            <div class="bage-title">
+                                <h2 class="badge-name">Title</h2>
+                            </div>
+                            <div class="bage-tags">
+                                <h5 class="badge-project">Graphic Design</h5>
+                            </div>
+                        </article>
+
+                        <article class="project-details web">
+                            <div class="project-image ">
+                                <img src="../assets/images/projects/project-9.png" alt="" class="img-responsive">
+                                <div class="overlay-portfolio"></div>
+                            </div>
+                            <div class="bage-title">
+                                <h2 class="badge-name">Title</h2>
+                            </div>
+                            <div class="bage-tags">
+                                <h5 class="badge-project">Web Development</h5>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="together py-50">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="together-details text-center d-flex align-items-center flex-column">
+                        <div class="custom-badge mx-auto mb-10">
+                            <h4 class="">Let's Work Together</h4>
+                        </div>
+                        <h1 class="mb-35">Explore your potential and begin your journey today.</h1>
+                        <div class="d-flex justify-content-center">
+                            <button class="btn btn-gradient d-flex gap-2 align-items-center " type="button">Let's
+                                Connect
+                                <span class="material-symbols-outlined text-20">
+                                    north_east
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Offices py-120 px-120">
+        <div class="container-fluid">
+            <div class="offices-heading text-center mb-50">
+                <h4>Our Offices</h4>
+                <div class="underline "></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-sm-12">
+                    <div class="row gap-sm-0 flex-wrap gap-3">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="custom-card">
+                                <div class="country d-flex align-items-center gap-3 mb-3">
+                                    <img src="../assets/images/flag/india.png" alt="" class="img-fluid">
+                                    <h4 class="mb-0">INDIA</h4>
+                                </div>
+                                <div class="office-location">
+                                    <div class="location d-flex gap-3 mb-15">
+                                        <img src="../assets/images/icon/map.png" alt="" class="img-fluid" width="40"
+                                            height="40">
+                                        <h5 class="mb-0">F-429, Phase 8B, Industrial Area, SAS Nagar, Punjab 160059</h5>
+                                    </div>
+                                    <div class="phone d-flex gap-3 align-items-center">
+                                        <img src="../assets/images/icon/call-calling.png" alt="" class="img-fluid"
+                                            width="40" height="40">
+                                        <h5 class="mb-0">+91 82198-18163</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="custom-card">
+                                <div class="country d-flex align-items-center gap-3 mb-3">
+                                    <img src="../assets/images/flag/usa.png" alt="" class="img-fluid">
+                                    <h4 class="mb-0">USA</h4>
+                                </div>
+                                <div class="office-location">
+                                    <div class="location d-flex gap-3 mb-15">
+                                        <img src="../assets/images/icon/map.png" alt="" class="img-fluid" width="40"
+                                            height="40">
+                                        <h5 class="mb-0">13506 Summerport Village Pky Suite 355 Windermere, FL 34786
+                                        </h5>
+                                    </div>
+                                    <div class="phone d-flex gap-3 align-items-center">
+                                        <img src="../assets/images/icon/call-calling.png" alt="" class="img-fluid"
+                                            width="40" height="40">
+                                        <h5 class="mb-0">+1 (321) 900-0079</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-sm-3 mt-lg-0">
+                            <div class="custom-card">
+                                <div class="country d-flex align-items-center gap-3 mb-3">
+                                    <img src="../assets/images/flag/can.png" alt="" class="img-fluid">
+                                    <h4 class="mb-0">CANADA</h4>
+                                </div>
+                                <div class="office-location">
+                                    <div class="location d-flex gap-3 mb-15">
+                                        <img src="../assets/images/icon/map.png" alt="" class="img-fluid" width="40"
+                                            height="40">
+                                        <h5 class="mb-0">15 Meltwater Cres, Brampton <br class="d-none d-md-block">
+                                            L6P3V8</h5>
+                                    </div>
+                                    <div class="phone d-flex gap-3 align-items-center">
+                                        <img src="../assets/images/icon/call-calling.png" alt="" class="img-fluid"
+                                            width="40" height="40">
+                                        <h5 class="mb-0">+1 (647) 892-6147</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer py-50 px-120">
+        <div class="container-fluid">
+            <div class="row gap-3 gap-sm-0">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                    <div class="footer-logo">
+                        <img src="../assets/images/logo/logo-white.svg" alt="" class="img-fluid mb-lg-4 mb-3"
+                            width="250px">
+                        <p class="m-0">At Authenticode, we are a team of Ambitious people, we are always looking to help
+                            you to grow
+                            your business by offering...</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                    <div class="Useful-Links">
+                        <h4 class="mb-lg-4 mb-3">Useful Links</h4>
+                        <ul class="footer-ul m-0">
+                            <li><a href="index.html">
+                                    <img src="../assets/images/icon/line.png" alt="" class="img-fluid">
+                                    Home</a></li>
+                            <li><a href="about.html">
+                                    <img src="../assets/images/icon/line.png" alt="" class="img-fluid">
+                                    About us</a></li>
+                            <li><a href="portfolio.html">
+                                    <img src="../assets/images/icon/line.png" alt="" class="img-fluid">
+                                    Portfolio</a></li>
+                            <li><a href="contact.html">
+                                    <img src="../assets/images/icon/line.png" alt="" class="img-fluid">
+                                    Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-12">
+                    <div class="Useful-Links">
+                        <h4 class="mb-lg-4 mb-3">Our Services</h4>
+                        <ul class="footer-ul m-0">
+                            <li><a href="ui-ux.html">
+                                    <img src="../assets/images/icon/line.png" alt="" class="img-fluid">
+                                    Web Design</a></li>
+                            <li><a href="web-development.html">
+                                    <img src="../assets/images/icon/line.png" alt="" class="img-fluid">
+                                    Web Development</a></li>
+                            <li><a href="mobile-development.html">
+                                    <img src="../assets/images/icon/line.png" alt="" class="img-fluid">
+                                    App Development</a></li>
+                            <li><a href="digital-marketing.html">
+                                    <img src="../assets/images/icon/line.png" alt="" class="img-fluid">
+                                    Marketing</a></li>
+                            <li><a href="ai-ar.html">
+                                    <img src="../assets/images/icon/line.png" alt="" class="img-fluid">
+                                    AI/AR</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-12 mt-sm-3 mt-lg-0">
+                    <div class="Useful-Links contact-footer">
+                        <h4 class="mb-lg-4 mb-3">Contact Us</h4>
+                        <p>F-429, Phase 8B, Industrial Area, SAS Nagar, Punjab 160059</p>
+                        <h3 class="mb-4">Follow on</h3>
+                        <ul class="footer-ul-icon d-flex gap-3 m-0">
+                            <li><a href="#">
+                                    <img src="../assets/images/icon/whatsapp.png" alt="" class="img-fluid"></a></li>
+                            <li><a href="#">
+                                    <img src="../assets/images/icon/instagram.png" alt="" class="img-fluid"></a></li>
+                            <li><a href="#">
+                                    <img src="../assets/images/icon/facebook.png" alt="" class="img-fluid"></a></li>
+                            <li><a href="#">
+                                    <img src="../assets/images/icon/linkdin.png" alt="" class="img-fluid"></a></li>
+                            <li><a href="#">
+                                    <img src="../assets/images/icon/skype.png" alt="" class="img-fluid"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.js"></script>
+    <script src="../assets/js/script.js"></script>
+
+    <script>
+        $(function () {
+            var $grid = $(".grid").isotope({
+                itemSelector: "article",
+            });
+
+            // filter buttons
+            $(".filters-button-group").on("click", "button", function () {
+                var filterValue = $(this).attr("data-filter");
+                $grid.isotope({ filter: filterValue });
+            });
+
+            $(".button-group").each(function (i, buttonGroup) {
+                var $buttonGroup = $(buttonGroup);
+                $buttonGroup.on("click", "button", function () {
+                    $buttonGroup.find(".is-checked").removeClass("is-checked");
+                    $(this).addClass("is-checked");
+                });
+            });
+        });
+
+        // debounce so filtering doesn't happen every millisecond
+        function debounce(fn, threshold) {
+            var timeout;
+            return function debounced() {
+                if (timeout) {
+                    clearTimeout(timeout);
+                }
+                function delayed() {
+                    fn();
+                    timeout = null;
+                }
+                timeout = setTimeout(delayed, threshold || 100);
+            };
+        }
+
+        $(window).bind("load", function () {
+            $(".button[data-filter='*']").click();
+        });
+    </script>
+
+</body>
+
+</html>
